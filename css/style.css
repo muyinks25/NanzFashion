@@ -1,0 +1,66 @@
+
+.small-text {
+  font-size: 14px;
+  text-align: center
+}
+
+
+/* Custom CSS for changing the font size of headings */
+h2 {
+  font-size: 28px;
+  
+}
+.test{
+  font-family: arial;
+  font-size: 50px;
+  color: red;
+}
+
+.click {
+background-color: blue;
+color: white;
+}
+
+/* Gallery page style */
+.cnotainer  {
+  text-align: center;
+    padding: 20px;
+}
+
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+ 
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  
+}
+/* Buttons and reset button styles */
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Add more styles as needed */
